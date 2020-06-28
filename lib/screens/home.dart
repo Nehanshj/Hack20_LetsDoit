@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'file:///D:/Projects/Flutter/hack20_flutter/lib/screens/dashboard/dashboard.dart';
 import 'package:hack20flutter/screens/tabs/Personal.dart';
 import 'package:hack20flutter/screens/tabs/Environmental.dart';
 import 'package:hack20flutter/screens/tabs/Special.dart';
 
-class Home extends StatefulWidget {
-  @override
-  _HomeState createState() => _HomeState();
-}
+class Home extends StatelessWidget {
+  int selectedPage;
 
-class _HomeState extends State<Home> {
+  Home(this.selectedPage);
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+      initialIndex: selectedPage,
       length: 3,
       child: Scaffold(
         appBar: AppBar(
@@ -20,7 +21,12 @@ class _HomeState extends State<Home> {
                 Icons.dashboard,
                 color: Colors.white,
               ),
-              onPressed: null),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Dashboard()),
+                );
+              }),
           centerTitle: true,
           title: Text(
             'Let\'s DO-it',
