@@ -11,13 +11,14 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightBlueAccent[100],
+      backgroundColor: Colors.lightBlueAccent[400],
       appBar: AppBar(
+        elevation: 0.0,
         title: Text(
           "DASHBOARD",
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.lightBlueAccent[100],
+        backgroundColor: Colors.lightBlueAccent[400],
       ),
       body: ListView(
         children: <Widget>[

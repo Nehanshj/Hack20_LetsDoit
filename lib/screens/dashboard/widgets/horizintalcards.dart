@@ -24,7 +24,7 @@ class _HorizontalCardsState extends State<HorizontalCards> {
 //          ),
         ),
         Container(
-          color: Colors.lightBlueAccent[100],
+          color: Colors.lightBlueAccent[400],
           height: 120.0,
           child: ListView(
             padding: EdgeInsets.only(left: 10.0),
