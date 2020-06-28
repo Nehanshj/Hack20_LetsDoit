@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hack20flutter/badge.dart';
 import 'file:///D:/Projects/Flutter/hack20_flutter/lib/screens/dashboard/dashboard.dart';
 import 'package:hack20flutter/screens/tabs/Personal.dart';
 import 'package:hack20flutter/screens/tabs/Environmental.dart';
@@ -38,7 +39,12 @@ class Home extends StatelessWidget {
                   Icons.supervised_user_circle,
                   color: Colors.white,
                 ),
-                onPressed: null),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Badge()),
+                  );
+                }),
           ],
           bottom: TabBar(tabs: [
             Tab(child: Text('Personal')),
