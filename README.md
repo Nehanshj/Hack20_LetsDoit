@@ -1,16 +1,12 @@
-# hack20flutter
+# LETs DO IT
 
-A new Flutter application.
+Reward Based Task Management Application built purely with Flutter
 
-## Getting Started
+## Details
 
-This project is a starting point for a Flutter application.
+Our application "Let's DO-it" is based on the theme, 'Save the Planet/What We've Learned from the Pandemic'.
+During the pandemic when the whole world is at a standstill, it's difficult to be productive, not procrastinate, utilise the natural resources wisely, and most of all be aware of our actions and not harm the environment.
 
-A few resources to get you started if this is your first Flutter project:
+Our application is a modified and sleek version of a simple ToDo application which aims to all of this by helping its users enter a productive and environment friendly lifestyle by selecting different tasks from a whole bunch of pre-listed and modifiable tasks therefore rewarding them with BADGES and increase in levels as they completes their tasks.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User is supposed to compelte a minimum number of tasks from the sections (Personal, Environmental, Special) in order to earn a badge.
