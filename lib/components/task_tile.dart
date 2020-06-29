@@ -16,7 +16,7 @@ class TaskTile extends StatelessWidget {
         style: TextStyle(decoration: check ? TextDecoration.lineThrough : null),
       ),
       trailing: Checkbox(
-          activeColor: Colors.lightBlueAccent,
+          activeColor: Colors.pinkAccent,
           value: check,
           onChanged: callback),
       onLongPress: longpresscallback,
