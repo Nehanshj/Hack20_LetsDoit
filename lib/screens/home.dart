@@ -49,9 +49,7 @@ class Home extends StatelessWidget {
           bottom: TabBar(tabs: [
             Tab(child: Text('Personal')),
             Tab(child: Text('Environment')),
-            Tab(
-              child: Text('Special'),
-            )
+            Tab(child: Text('Special')),
           ]),
         ),
         body: TabBarView(children: [
