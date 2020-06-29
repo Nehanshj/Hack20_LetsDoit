@@ -28,7 +28,6 @@ class _EnvironmentalState extends State<Environmental> {
         child: Icon(Icons.add),
         backgroundColor: Colors.green[900],
       ),
-      body: EnvTaskList(),
       );
   }
 }

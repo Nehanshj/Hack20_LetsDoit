@@ -21,7 +21,7 @@ class EnvironmentalTask extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               ListTile(
-                title: Text('Water Plants',
+                title: Text(eNewTile='Water Plants',
                 style: TextStyle(color: Colors.white)),
                 trailing: FlatButton(
                   color: Colors.lightGreen,
@@ -29,14 +29,14 @@ class EnvironmentalTask extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                   )),
-                  onPressed: (){
+                  onPressed: (){ // null nai kara coz woh button alag se nai dikhre the, plus isse waise bhi kuch nai hora
                     Provider.of<EnvTaskData>(context, listen: false).addTask(eNewTile);
                     Navigator.pop(context);
                   },
                 ),
               ),
               ListTile(
-                title: Text('Plant a Tree',
+                title: Text(eNewTile='Plant a Tree',
                   style: TextStyle(color: Colors.white)),
                 trailing: FlatButton(
                   color: Colors.lightGreen,

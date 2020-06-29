@@ -3,7 +3,7 @@ import 'package:hack20flutter/components/task_tile.dart';
 import 'package:provider/provider.dart';
 import 'per_taskdata.dart';
 
-class EnvTaskList extends StatelessWidget {
+class PerTaskList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<PerTaskData>(

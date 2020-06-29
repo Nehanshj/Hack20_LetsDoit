@@ -21,7 +21,7 @@ class PersonalTask extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               ListTile(
-                title: Text('Read a Book',
+                title: Text(pNewTile='Read a Book',
                     style: TextStyle(color: Colors.white)),
                 trailing: FlatButton(
                   color: Colors.tealAccent,
@@ -36,7 +36,7 @@ class PersonalTask extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('Learn Something New',
+                title: Text(pNewTile='Learn Something New',
                     style: TextStyle(color: Colors.white)),
                 trailing: FlatButton(
                   color: Colors.tealAccent,

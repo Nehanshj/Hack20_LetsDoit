@@ -21,7 +21,7 @@ class SpecialTask extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               ListTile(
-                title: Text('Save Electricity',
+                title: Text(sNewTile='Save Electricity',
                     style: TextStyle(color: Colors.black)),
                 trailing: FlatButton(
                   color: Colors.yellow[300],
@@ -36,7 +36,7 @@ class SpecialTask extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('Wear a Mask',
+                title: Text( sNewTile= 'Wear a Mask',
                     style: TextStyle(color: Colors.black)),
                 trailing: FlatButton(
                   color: Colors.yellow[300],
