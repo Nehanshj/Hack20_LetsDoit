@@ -34,17 +34,20 @@ class Home extends StatelessWidget {
             style: TextStyle(fontWeight: FontWeight.w900),
           ),
           actions: <Widget>[
-            IconButton(
-                icon: Icon(
-                  Icons.supervised_user_circle,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Badge()),
-                  );
-                }),
+            Hero(
+              tag: 'Hero1',
+              child: IconButton(
+                  icon: Icon(
+                    Icons.supervised_user_circle,
+                    color: Colors.white,
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Badge()),
+                    );
+                  }),
+            ),
           ],
           bottom: TabBar(tabs: [
             Tab(child: Text('Personal')),

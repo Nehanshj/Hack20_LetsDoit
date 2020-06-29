@@ -15,23 +15,23 @@ class _PersonalState extends State<Personal> {
     return ChangeNotifierProvider(
       create: (context) => PerTaskData(),
       child: Scaffold(
-          backgroundColor: Colors.teal,
-          floatingActionButton: FloatingActionButton(
-            onPressed: (){
-              showModalBottomSheet(
-                context: context,
-                builder: (context) => SingleChildScrollView(
-                    child: Container(
-                      padding: EdgeInsets.only(
-                          bottom: MediaQuery.of(context).viewInsets.bottom),
-                      child: PersonalTask(),
-                    )),
-                isScrollControlled: true,
-              );
-            },
-            child: Icon(Icons.add),
-            backgroundColor: Colors.teal[900],
-          ),
+          backgroundColor: Colors.white70,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            showModalBottomSheet(
+              context: context,
+              builder: (context) => SingleChildScrollView(
+                  child: Container(
+                padding: EdgeInsets.only(
+                    bottom: MediaQuery.of(context).viewInsets.bottom),
+                child: PersonalTask(),
+              )),
+              isScrollControlled: true,
+            );
+          },
+          child: Icon(Icons.add),
+          backgroundColor: Colors.blue[600],
+        ),
         body: PerTaskList(),
       ),
     );

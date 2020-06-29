@@ -77,7 +77,7 @@ class Lists extends StatelessWidget {
                     fontSize: 20.0)),
             onTap: () {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Home(3)));
+                  context, MaterialPageRoute(builder: (context) => Home(2)));
             },
           ),
         ),

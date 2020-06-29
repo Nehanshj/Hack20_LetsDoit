@@ -6,6 +6,10 @@ import 'package:hack20flutter/components/task.dart';
 class PerTaskData extends ChangeNotifier{
   List<Task> _pTasks = [
     Task(name: 'Read a Book'),
+    Task(name: 'Pending errors'),
+    Task(name: 'Flutter App Project'),
+    Task(name: 'Research'),
+    Task(name: 'Complete Assignment'),
   ];
 
   UnmodifiableListView<Task> get pTasks {
