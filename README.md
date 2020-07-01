@@ -12,4 +12,4 @@ Our application is a modified and sleek version of a simple ToDo application whi
 User is supposed to compelte a minimum number of tasks from the sections (Personal, Environmental, Special) in order to earn a badge.
 
 ## Screenshots
-![UI-1](https://github.com/Nehanshj/Hack20_LetsDoit/tree/master/screenshots/screenshot(1).jpeg)
+![UI-1](https://github.com/Nehanshj/Hack20_LetsDoit/tree/master/screenshots/screenshot (1).jpeg)
